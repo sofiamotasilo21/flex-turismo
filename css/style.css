@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:"Open sans" sans-serif;}
+
+
+
+ul{
+    list-style: none;
+    
+}
+ul li a{ 
+    text-decoration: none;
+    
+}
+header{ 
+    background-color: #468ce8;
+    height: 100px;
+    align-items: center;   
+    color: #fff;}
+
+.menu{
+   display: flex;
+   max-width: 992px;
+   min-width: 320px;
+   justify-content: space-between;
+   margin:0 auto;
+   flex-direction:none;
+   height: 100%;
+   align-items: center;}
+
+ 
+.list-item{
+    display: flex;
+    width: 260px;
+    justify-content: space-between;
+    
+}
+.apresentacao{
+    /*eqivale a medida equivalente a altura de viewport ou seja, se o viewport for 1000px, 60vh ira representar 60% dos 1000px ou seja, 600px*/
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.apresentacao .txt-apresentacao{
+    height: 200px;
+}
+.txt-apresentacao h2{
+    color:#122a57 ;
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+.btn{
+    width: 220px;
+    height: 50px;
+    background-color: #122a57;
+    color: #fff;
+    /*transforma um elemento inline em um elemento de bloco */
+    display: inline-block;
+    border-radius: 30px;
+    text-align: center;
+    line-height: 50px;
+
+}
